@@ -13,7 +13,7 @@ mkdir /tmp/redux_init
 chdir /tmp/redux_init
 
 apt-get install aptitude tree tmux vim
-apt-get install liberror-perl git
+apt-get install liberror-perl git gitk
 
 # Install Chrome
 wget -P $TARGET_DIR https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
