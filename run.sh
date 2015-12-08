@@ -19,3 +19,5 @@ apt-get install liberror-perl git gitk
 wget -P $TARGET_DIR https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt-get install libindicator7 libappindicator1
 dpkg -i $TARGET_DIR/google-chrome*.deb
+
+apt-get install guake
