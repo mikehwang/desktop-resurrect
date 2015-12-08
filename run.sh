@@ -21,3 +21,9 @@ apt-get install libindicator7 libappindicator1
 dpkg -i $TARGET_DIR/google-chrome*.deb
 
 apt-get install guake
+
+# Install Java
+add-apt-repository ppa:webupd8team/java
+apt-get update
+apt-get install oracle-java8-installer
+
