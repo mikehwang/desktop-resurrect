@@ -12,7 +12,7 @@ TARGET_DIR="/tmp/redux_init"
 mkdir /tmp/redux_init
 chdir /tmp/redux_init
 
-apt-get install aptitude tree tmux vim
+apt-get install aptitude tree tmux vim-gnome
 apt-get install liberror-perl git gitk
 
 # Install Chrome
